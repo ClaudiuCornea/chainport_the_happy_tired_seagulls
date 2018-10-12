@@ -11,7 +11,7 @@ import {
 
 import { PanelHeader } from "components";
 
-import { thead, tbody } from "variables/general";
+import { thead, tbody } from "../../variables/general";
 
 class RegularTables extends React.Component {
   render() {

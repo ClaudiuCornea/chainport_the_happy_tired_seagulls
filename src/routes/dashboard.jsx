@@ -7,7 +7,7 @@ import Maps from "views/Maps/Maps.jsx";
 import Upgrade from "views/Upgrade/Upgrade.jsx";
 import UserPage from "views/UserPage/UserPage.jsx";
 
-var dashRoutes = [
+var DashRoutes = [
   {
     path: "/dashboard",
     name: "Dashboard",
@@ -46,4 +46,4 @@ var dashRoutes = [
   },
   { redirect: true, path: "/", pathTo: "/dashboard", name: "Dashboard" }
 ];
-export default dashRoutes;
+export default DashRoutes;

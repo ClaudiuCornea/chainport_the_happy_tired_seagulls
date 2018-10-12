@@ -3,7 +3,7 @@ import { Card, CardHeader, CardBody, Row, Col } from "reactstrap";
 
 import { PanelHeader } from "components";
 
-import icons from "variables/icons";
+import icons from "../../variables/icons";
 
 class Icons extends React.Component {
   render() {
