@@ -1,0 +1,107 @@
+body {
+	display: flex;
+}
+
+#hell {
+	width: 20%;
+}
+
+#helices2 {  
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+  
+  	width: 20%;
+  	transform-origin: 50% 299px;
+	
+	}
+
+@keyframes spin { 100% {
+	-webkit-transform: rotate(360deg);
+	}
+}
+
+
+#sunny {
+	width: 20%;
+}
+
+#rayon* {
+	
+}
+
+#rayon1 {
+	 
+  -webkit-animation: scal 2s infinite;
+  /* 	width: 20%; */
+  	transform-origin: 50% 50%;  	
+  	animation-direction: normal;
+  	transition: .2s;
+
+	}
+
+#rayon2 {
+	 
+  -webkit-animation: scal 3s infinite;
+  /* 	width: 20%; */
+  	transform-origin: 50% 50%;
+  animation-direction: normal;
+  transition: .2s;
+  
+	}
+
+
+#rayon3 {
+	 
+  -webkit-animation: scal 4s infinite;
+ /*  	width: 20%; */
+  	transform-origin: 50% 50%;
+  animation-direction: normal;
+  transition: .2s;
+  
+	}
+
+
+@keyframes scal { 
+	0% {
+		-webkit-transform:  scale(.5);
+		-webkit-opacity: 1;
+	}
+	/* 1% {
+		-webkit-transform:  scale(.5);
+		-webkit-opacity: 1;
+	} */
+
+	/* 60% {
+		-webkit-transform:  scale(1.5);
+	} */
+
+/* 	60% {
+		-webkit-transform:  scale(1.5);
+		-webkit-opacity: 1;
+	} */
+
+	88% {
+	-webkit-transform:  scale(2);
+	-webkit-opacity: 1;
+	}
+
+	100% {
+	-webkit-transform:  scale(2);
+	-webkit-opacity: 0;
+	}
+
+/* 	0% {
+		-webkit-transform:  scale(.5);
+		-opacity: 0;
+	}
+ */
+}
+
+
+
+
+
+
+
+
