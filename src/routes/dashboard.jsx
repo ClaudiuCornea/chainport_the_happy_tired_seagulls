@@ -14,12 +14,22 @@ var dashRoutes = [
     icon: "design_app",
     component: Dashboard
   },
-  { path: "/icons", name: "Icons", icon: "design_image", component: Icons },
-  { path: "/maps", name: "Maps", icon: "location_map-big", component: Maps },
+  {
+    path: "/typography",
+    name: "Dashboard - Compagny",
+    icon: "design_app",
+    component: Typography
+  },
+  { 
+    path: "/icons",
+    name: "Icons",
+    icon: "design_image",
+    component: Icons
+  },
   {
     path: "/notifications",
-    name: "Notifications",
-    icon: "ui-1_bell-53",
+    name: "User Impact",
+    icon: "objects_globe",
     component: Notifications
   },
   {
@@ -30,22 +40,9 @@ var dashRoutes = [
   },
   {
     path: "/extended-tables",
-    name: "Table List",
-    icon: "files_paper",
+    name: "Business",
+    icon: "shopping_cart-simple",
     component: TableList
-  },
-  {
-    path: "/typography",
-    name: "Typography",
-    icon: "design-2_ruler-pencil",
-    component: Typography
-  },
-  {
-    pro: true,
-    path: "/upgrade",
-    name: "Upgrade to PRO",
-    icon: "objects_spaceship",
-    component: Upgrade
   },
   { redirect: true, path: "/", pathTo: "/dashboard", name: "Dashboard" }
 ];
