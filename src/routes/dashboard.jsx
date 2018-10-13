@@ -8,12 +8,7 @@ import Upgrade from "views/Upgrade/Upgrade.jsx";
 import UserPage from "views/UserPage/UserPage.jsx";
 
 var DashRoutes = [
-  {
-    path: "/dashboard",
-    name: "Dashboard",
-    icon: "design_app",
-    component: Dashboard
-  },
+
   {
     path: "/typography",
     name: "Dashboard - Compagny",
@@ -22,8 +17,8 @@ var DashRoutes = [
   },
   { 
     path: "/icons",
-    name: "Icons",
-    icon: "design_image",
+    name: "Weather",
+    icon: "objects_umbrella-13",
     component: Icons
   },
   {
@@ -34,7 +29,7 @@ var DashRoutes = [
   },
   {
     path: "/user-page",
-    name: "User Profile",
+    name: "User Profile - Compagny",
     icon: "users_single-02",
     component: UserPage
   },

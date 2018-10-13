@@ -94,7 +94,10 @@ class Notifications extends React.Component {
                     </Row> 
                           
                 </CardBody>
+            
               </Card>
+              
+              
               <Card>
                 <CardBody>
                   <div className="places-buttons">
@@ -107,19 +110,19 @@ class Notifications extends React.Component {
                         
                             <Col md={10} className="container-fluid text-center" >
                             <Alert color="info">
-                             <span >
-                              This is a notification with close button and icon and have
-                              many lines. You can see that the icon and the close button
-                              are always vertically aligned. This is a beautiful
-                              notification. So you don't have to worry about the style.
-                            </span>
-                            </Alert>
-                            </Col>
-                            <Col md={2} className="container-fluid text-center">
-                               <Alert color="info">
-                                <span> BIDOU </span>
+                             
+                              <p>TO RECHARGE YOUR MOBILE </p>
+                              <span>
+                              Today, you have to get 67 Kw/H during 3 hours to charge a smartphone.
+                              </span>
+                                <p >
+                                 →→→ It's equals to 10 hours of sunshining    
+                                </p>
                                 </Alert>
-                            </Col>
+                                </Col>
+                                <Col md={2} className="container-fluid text-center">
+
+                                </Col>
                           
                             
                         </Row>
@@ -134,19 +137,20 @@ class Notifications extends React.Component {
                         
                             <Col md={10} className="container-fluid text-center" >
                             <Alert color="info">
-                             <span >
-                              This is a notification with close button and icon and have
-                              many lines. You can see that the icon and the close button
-                              are always vertically aligned. This is a beautiful
-                              notification. So you don't have to worry about the style.
-                            </span>
+                            
+                              <p>TO RECHARGE YOUR LAPTOP</p>
+                             <span>
+                              Today, you have to get 200 Kw/H during 5 hours to charge a basic laptop.
+                              </span>
+                                <p >
+                                 →→→ It's equals to 45 hours of sunshining    
+                                </p>
                             </Alert>
                             </Col>
                             <Col md={2} className="container-fluid text-center">
-                               <Alert color="info">
-                                <span> BIDOU </span>
-                                </Alert>
+                               
                             </Col>
+                           
                           
                             
                         </Row>
@@ -160,19 +164,19 @@ class Notifications extends React.Component {
                         
                             <Col md={10} className="container-fluid text-center" >
                             <Alert color="info">
-                             <span >
-                              This is a notification with close button and icon and have
-                              many lines. You can see that the icon and the close button
-                              are always vertically aligned. This is a beautiful
-                              notification. So you don't have to worry about the style.
-                            </span>
+                            <p> TO GRILL YOUR BREAD </p>
+                            <span>
+                              Today, you have to get 20 Kw/H during 0,1 hours to Grill 2 slices of bread.
+                              </span>
+                                <p >
+                                 →→→ It's equals to 10 hours of sunshining    
+                                </p>
                             </Alert>
                             </Col>
                             <Col md={2} className="container-fluid text-center">
-                               <Alert color="info">
-                                <span> BIDOU </span>
-                                </Alert>
+                               
                             </Col>
+                           
                           
                             
                         </Row>
@@ -186,19 +190,20 @@ class Notifications extends React.Component {
                         
                             <Col md={10} className="container-fluid text-center" >
                             <Alert color="info">
-                             <span >
-                              This is a notification with close button and icon and have
-                              many lines. You can see that the icon and the close button
-                              are always vertically aligned. This is a beautiful
-                              notification. So you don't have to worry about the style.
-                            </span>
+                             
+                              <p>TO RECHARGE YOUR ELECTRIC BIKE </p>
+                               <span>
+                              Today, you have to get 356 Kw/H during 10 hours to charge a Bike.
+                              </span>
+                                <p >
+                                 →→→  It's equals to 67 hours of sunshining    
+                                </p>
                             </Alert>
                             </Col>
                             <Col md={2} className="container-fluid text-center">
-                               <Alert color="info">
-                                <span> BIDOU </span>
-                                </Alert>
+                               
                             </Col>
+                           
                           
                             
                         </Row>
@@ -206,31 +211,7 @@ class Notifications extends React.Component {
                 </CardBody>
               </Card>
               
-                 <Card>
-                <CardBody>
-                         <Row className="container-fluid text-center"> 
-                        
-                            <Col md={10} className="container-fluid text-center" >
-                            <Alert color="info">
-                             <span >
-                              This is a notification with close button and icon and have
-                              many lines. You can see that the icon and the close button
-                              are always vertically aligned. This is a beautiful
-                              notification. So you don't have to worry about the style.
-                            </span>
-                            </Alert>
-                            </Col>
-                            <Col md={2} className="container-fluid text-center">
-                               <Alert color="info">
-                                <span> BIDOU </span>
-                                </Alert>
-                            </Col>
-                          
-                            
-                        </Row>
-                          
-                </CardBody>
-              </Card>
+            
               
               
         </div>

@@ -15,21 +15,19 @@ class Footer extends React.Component {
               <li>
                 <a href="https://www.creative-tim.com">Port Of Antwerp</a>
               </li>
-              <li>
-                <a href="https://presentation.creative-tim.com">About Us</a>
-              </li>
+              
               
             </ul>
           </nav>
           <div className="copyright">
-            &copy; {1900 + new Date().getYear()}, Designed by{" "}
+            &copy; {1900 + new Date().getYear()}, Designed by THE HAPPY TIRED SEAGULL
             <a
               href="https://www.invisionapp.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Invision
-            </a>. Coded by{" "}
+              
+            </a>/ . Coded by THE HAPPY TIRED SEAGULL .
             <a
               href="https://www.creative-tim.com"
               target="_blank"

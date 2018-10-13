@@ -5,7 +5,7 @@ import { Route, Switch, Redirect } from "react-router-dom";
 
 import { Header, Footer, Sidebar } from "components";
 
-import DashboardRoutes from "../../routes/dashboard.jsx";
+import dashboardRoutes from "routes/dashboard.jsx";
 
 var ps;
 
@@ -31,11 +31,11 @@ class Dashboard extends React.Component {
   render() {
     return (
       <div className="wrapper">
-        <Sidebar {...this.props} routes={DashboardRoutes} />
+        <Sidebar {...this.props} routes={dashboardRoutes} />
         <div className="main-panel" ref="mainPanel">
           <Header {...this.props} />
           <Switch>
-            {DashboardRoutes.map((prop, key) => {
+            {dashboardRoutes.map((prop, key) => {
               if (prop.collapse) {
                 return prop.views.map((prop2, key2) => {
                   return (
