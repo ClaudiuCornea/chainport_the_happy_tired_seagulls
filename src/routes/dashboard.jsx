@@ -1,10 +1,10 @@
-import DashboardUser from "views/DashboardUser/DashboardUser.jsx";
-import UserImpact from "views/UserImpact/UserImpact.jsx";
-import Icons from "views/Icons/Icons.jsx";
-import DashboardCompagny from "views/DashboardCompagny/DashboardCompagny.jsx";
-import Compagny from "views/CompagnyPage/CompagnyPage.jsx";
-import TableList from "views/TableList/TableList.jsx";
-import UserPage from "views/UserPage/UserPage.jsx";
+import DashboardUser from "./views/DashboardUser/DashboardUser.jsx";
+import UserImpact from "./views/UserImpact/UserImpact.jsx";
+import Icons from "./views/Icons/Icons.jsx";
+import DashboardCompagny from "./views/DashboardCompagny/DashboardCompagny.jsx";
+import Compagny from "./views/CompagnyPage/CompagnyPage.jsx";
+import TableList from "./views/TableList/TableList.jsx";
+import UserPage from "./views/UserPage/UserPage.jsx";
 
 var DashRoutes = [
 
