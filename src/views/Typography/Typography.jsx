@@ -24,9 +24,9 @@ import {
   dashboardShippedProductsChart,
   dashboardAllProductsChart,
   dashboard24HoursPerformanceChart
-} from "variables/charts.jsx";
+} from "../../variables/charts.jsx";
 
-import { tasks } from "variables/general.jsx";
+import { tasks } from "../../variables/general.jsx";
 
 class Dashboard extends React.Component {
   render() {
