@@ -32,14 +32,14 @@ class User extends React.Component {
                           inputProps: {
                             type: "text",
                             disabled: true,
-                            defaultValue: "Creative Code Inc."
+                            defaultValue: "BeCode"
                           }
                         },
                         {
                           label: "Username",
                           inputProps: {
                             type: "text",
-                            defaultValue: "michael23"
+                            defaultValue: "Dardamo"
                           }
                         },
                         {
@@ -59,7 +59,7 @@ class User extends React.Component {
                           inputProps: {
                             type: "text",
                             placeholder: "First Name",
-                            defaultValue: "Mike"
+                            defaultValue: "Claudiu"
                           }
                         },
                         {
@@ -67,7 +67,7 @@ class User extends React.Component {
                           inputProps: {
                             type: "text",
                             placeholder: "Last Name",
-                            defaultValue: "Andrew"
+                            defaultValue: "Cornea"
                           }
                         }
                       ]}
@@ -81,7 +81,7 @@ class User extends React.Component {
                             type: "text",
                             placeholder: "Home Address",
                             defaultValue:
-                              "Bld Mihail Kogalniceanu, nr. 8 Bl 1, Sc 1, Ap 09"
+                              "Cantersteen 10, 1000 Bruxelles"
                           }
                         }
                       ]}
@@ -97,7 +97,7 @@ class User extends React.Component {
                           label: "City",
                           inputProps: {
                             type: "text",
-                            defaultValue: "Bucharest",
+                            defaultValue: "Brussel",
                             placeholder: "City"
                           }
                         },
@@ -105,7 +105,7 @@ class User extends React.Component {
                           label: "Country",
                           inputProps: {
                             type: "text",
-                            defaultValue: "Romania",
+                            defaultValue: "Belgium",
                             placeholder: "Country"
                           }
                         },
@@ -128,8 +128,7 @@ class User extends React.Component {
                             rows: "4",
                             cols: "80",
                             defaultValue:
-                              "Lamborghini Mercy, Your chick she so thirsty, I'm in that two seat Lambo.",
-                            placeholder: "Here can be your description"
+                              "I'm Batman."
                           }
                         }
                       ]}
@@ -147,13 +146,11 @@ class User extends React.Component {
                   <CardAuthor
                     avatar={userAvatar}
                     avatarAlt="..."
-                    title="Mike Andrew"
-                    description="michael23"
+                    title="Claudiu Cornea"
+                    description="Dardamo"
                   />
                   <p className="description text-center">
-                    "Lamborghini Mercy <br />
-                    Your chick she so thirsty <br />
-                    I'm in that two seat Lambo"
+                    "I'm Batman."
                   </p>
                 </CardBody>
                 <hr />

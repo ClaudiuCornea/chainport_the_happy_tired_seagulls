@@ -4,8 +4,6 @@ import {
   Card,
   CardTitle,
   CardBody,
-  CardHeader,
-  Container,
   Row,
   Col
 } from "reactstrap";
@@ -15,7 +13,7 @@ import NotificationAlert from "react-notification-alert";
 import { PanelHeader } from "components";
 
 
-class Notifications extends React.Component {
+class UserImpact extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -220,4 +218,4 @@ class Notifications extends React.Component {
   }
 }
 
-export default Notifications;
+export default UserImpact;

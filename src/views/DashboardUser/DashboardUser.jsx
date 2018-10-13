@@ -5,30 +5,24 @@ import {
   CardBody,
   CardFooter,
   CardTitle,
-  Row,
   Col,
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
-  DropdownItem,
-  Table
+  DropdownItem
 } from "reactstrap";
 // react plugin used to create charts
-import { Line, Bar } from "react-chartjs-2";
+import { Line } from "react-chartjs-2";
 // function that returns a color based on an interval of numbers
 
-import { PanelHeader, Stats, CardCategory, Tasks } from "components";
+import { PanelHeader, Stats, CardCategory } from "components";
 
 import {
   dashboardPanelChart,
-  dashboardShippedProductsChart,
-  dashboardAllProductsChart,
-  dashboard24HoursPerformanceChart
+  dashboardAllProductsChart
 } from "variables/charts.jsx";
 
-import { tasks } from "variables/general.jsx";
-
-class Dashboard extends React.Component {
+class DashboardUser extends React.Component {
   render() {
     return (
       <div>
@@ -96,4 +90,4 @@ class Dashboard extends React.Component {
   }
 }
 
-export default Dashboard;
+export default DashboardUser;

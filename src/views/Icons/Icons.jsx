@@ -1,9 +1,7 @@
 import React from "react";
-import { Card, CardHeader, CardBody, Row, Col } from "reactstrap";
+import { Card, CardHeader, Row, Col } from "reactstrap";
 
 import { PanelHeader } from "components";
-
-import icons from "variables/icons";
 
 class Icons extends React.Component {
   render() {
